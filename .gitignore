@@ -1,0 +1,48 @@
+# ---- Données du projet ----
+# Exclure les fichiers JSONL et TSV du corpus
+*.jsonl
+*.tsv
+
+# Si tu veux être plus précis :
+# corpus.jsonl
+# queries.jsonl
+# valid.tsv
+# test_final.tsv
+
+# ---- Fichiers de données volumineux ----
+*.pkl
+*.pickle
+*.npz
+*.npy
+
+# ---- Modèles & embeddings ----
+models/
+embeddings/
+*.pt
+*.bin
+
+# ---- Dossiers de sorties temporaires ----
+output/
+results/
+logs/
+
+# ---- Python caching ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# ---- Environnements virtuels ----
+.env
+.venv
+venv/
+ENV/
+env/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- IDE ----
+.vscode/
+.idea/
